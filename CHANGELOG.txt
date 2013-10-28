@@ -1,0 +1,92 @@
+=================================
+reCaptcha Contao module CHANGELOG
+=================================
+
+Version 1.0.1 (2013-05-10)
+--------------------------
+- Updated library
+
+Version 1.0.0 (2012-10-04)
+--------------------------
+- Rewritten for Contao 3
+- Old recaptchalib.php replaced by PHP5 version: https://github.com/AlekseyKorzun/reCaptcha-PHP-5
+
+Version 0.7.1 (2012-06-14)
+--------------------------
+- Added option to set tabindex
+- reCaptcha is always mandatory now, added according class and sign
+- Workaround for language bug (lang in RecaptchaOptions not working)
+
+Version 0.7.0 (2011-09-08)
+--------------------------
+- Updated ReCaptcha library to use new Google URLs
+- New html5/xhtml Templates for Contao 2.10
+
+Version 0.6.4 (2010-10-11)
+--------------------------
+- Script-tag was not W3C-compliant, thanks to Simon Aebersold
+
+Version 0.6.3 (2010-08-17)
+--------------------------
+- Settings in page Layout now working Contao 2.9, thanks to Cyrill Steinmetz
+
+Version 0.6.2 (2010-03-30)
+--------------------------
+- Workaround for errors on pages with comment form, thanks to Simon Wallmann
+- Option to disable the replacing of the default captcha
+
+Version 0.6.1 (2010-02-02)
+--------------------------
+- Corrected french language file, thanks to Tony Altimani
+- Filled missing russian translation with english, to avoid errors
+
+Version 0.6.0 (2010-01-13)
+--------------------------
+- Custom Template can be chosen separately for each reCaptcha (resp. page layout), thanks to Christian Bister
+- Deleted custom template example from templates folder
+- Created new rec_custom_default template
+
+
+Version 0.5.0 (2009-04-04)
+--------------------------
+- All standard captchas are replaced by recaptcha (requires TYPOlight 2.7+)
+- Support for new two-column forms in backend
+
+
+Version 0.4.0 (2009-02-08)
+--------------------------
+- Global key is used as default, so you don't have to request a key pair any more
+
+
+Version 0.3.2 (2009-02-08)
+--------------------------
+- Correct for-attribute of the label
+- Code improvements
+
+
+Version 0.3.1 (2008-11-29)
+--------------------------
+- Fixed bug so that fallback layout is used, if no layout defined or inherited
+
+
+Version 0.3.0 (2008-09-09)
+--------------------------
+- Added theme custom, see recaptcha_custom_example.tpl in templates dir
+- Corrections in language files
+- The recaptcha_check_answer() error message is given to recaptcha_get_html() error parameter
+- Backend filtering for reCaptcha theme and public key allowed
+
+
+Version 0.2.0 (2008-09-08)
+--------------------------
+- Outputs an error message if no key pair is set in the page layout
+- Corrected charset in german language files
+- Better descriptions and translations
+- Now automatically uses SSL-parameter for recaptcha_get_html() on SSL-sites
+- Added LICENCE.txt, CHANGELOG.txt, INSTALL.txt
+- Added package.jpg
+
+ 
+Version 0.1.0 (2008-09-06)
+--------------------------
+- First public release

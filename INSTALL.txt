@@ -1,0 +1,23 @@
+==============================
+= reCaptcha TYPOlight module =
+==============================
+
+After installation all default captchas are replaced by reCaptchas (http://recaptcha.net).
+You can also add a reCaptcha security question as a form field in the form generator.
+
+
+====================
+= Setup theme ======
+====================
+
+1. Choose the reCaptcha theme in your page layout (resp. default layout) at the expert settings
+2. If you use the "custom" theme, you have to choose a template file beginning with "rec_"
+3. If you create an own custom template, it must contain a div with the id "recaptcha_widget", more on http://recaptcha.net/apidocs/captcha/client.html
+
+
+====================
+= Custom key pair ==
+====================
+
+1. Get a public/private key pair from http://recaptcha.net/api/getkey
+2. Enter key pair in your page layout (resp. default layout) at the expert settings
