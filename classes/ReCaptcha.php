@@ -21,7 +21,7 @@
  * Software Foundation website at <http://www.gnu.org/licenses/>.
  *
  * PHP version 5
- * @copyright  Florian Stallmann 2008-2012
+ * @copyright  Florian Stallmann 2008-2014
  * @author     Florian Stallmann <info@fs-informatik.de>
  * @package    reCaptcha
  * @version    1.0.0
@@ -32,13 +32,13 @@
 namespace FsInformatik\ReCaptcha;
 
 /**
- * Class FormReCaptcha
+ * Class ReCaptcha
  *
- * @copyright  Florian Stallmann 2008-2012
+ * @copyright  Florian Stallmann 2008-2014
  * @author     Florian Stallmann <info@fs-informatik.de>
- * @package    Controller
+ * @package    FsInformatik
  */
-class FormReCaptcha extends \Widget
+class ReCaptcha extends \Widget
 {
 
   /**

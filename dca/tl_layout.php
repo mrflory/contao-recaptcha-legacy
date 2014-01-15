@@ -40,7 +40,8 @@ $GLOBALS['TL_DCA']['tl_layout']['fields']['recPublicKey'] = array
       'filter'                  => true,
       'search'                  => false,
       'inputType'               => 'text',
-      'eval'                    => array('decodeEntities'=>true, 'tl_class'=>'w50')
+      'eval'                    => array('decodeEntities'=>true, 'tl_class'=>'w50'),
+      'sql'                     => "varchar(48) NOT NULL default ''"
 );
 
 $GLOBALS['TL_DCA']['tl_layout']['fields']['recPrivateKey'] = array
@@ -50,7 +51,8 @@ $GLOBALS['TL_DCA']['tl_layout']['fields']['recPrivateKey'] = array
       'filter'                  => true,
       'search'                  => false,
       'inputType'               => 'text',
-      'eval'                    => array('decodeEntities'=>true, 'tl_class'=>'w50')
+      'eval'                    => array('decodeEntities'=>true, 'tl_class'=>'w50'),
+      'sql'                     => "varchar(48) NOT NULL default ''"
 );
 
 $GLOBALS['TL_DCA']['tl_layout']['fields']['recTheme'] = array
@@ -61,7 +63,8 @@ $GLOBALS['TL_DCA']['tl_layout']['fields']['recTheme'] = array
       'search'                  => false,
       'inputType'               => 'select',
       'options'                 => array('red', 'white', 'blackglass', 'clean', 'custom'),
-      'eval'                    => array('tl_class'=>'w50')
+      'eval'                    => array('tl_class'=>'w50'),
+      'sql'                     => "varchar(32) NOT NULL default ''"
 );
 
 $GLOBALS['TL_DCA']['tl_layout']['fields']['recCustomTemplate'] = array
@@ -72,6 +75,7 @@ $GLOBALS['TL_DCA']['tl_layout']['fields']['recCustomTemplate'] = array
       'search'                  => false,
       'inputType'               => 'select',
       'options'                 => $this->getTemplateGroup("rec_"),
-      'eval'                    => array('tl_class'=>'w50')
+      'eval'                    => array('tl_class'=>'w50'),
+      'sql'                     => "varchar(128) NOT NULL default ''"
 );
 

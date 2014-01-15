@@ -16,7 +16,7 @@
  */
 ClassLoader::addNamespaces(array
 (
-	'FsInformatik',
+    'FsInformatik',
 ));
 
 
@@ -25,12 +25,17 @@ ClassLoader::addNamespaces(array
  */
 ClassLoader::addClasses(array
 (
-	// Library
-	'FsInformatik\ReCaptcha\Lib\Response'  => 'system/modules/recaptcha/library/Response.php',
-	'FsInformatik\ReCaptcha\Lib\Exception' => 'system/modules/recaptcha/library/Exception.php',
-	'FsInformatik\ReCaptcha\Lib\Captcha'   => 'system/modules/recaptcha/library/Captcha.php',
-	'FsInformatik\ReCaptcha\FormCaptcha'   => 'system/modules/recaptcha/FormCaptcha.php',
-	'FsInformatik\ReCaptcha\FormReCaptcha' => 'system/modules/recaptcha/FormReCaptcha.php',
+    // Library
+    'FsInformatik\ReCaptcha\Lib\Response'  => 'system/modules/recaptcha/library/Response.php',
+    'FsInformatik\ReCaptcha\Lib\Exception' => 'system/modules/recaptcha/library/Exception.php',
+    'FsInformatik\ReCaptcha\Lib\Captcha'   => 'system/modules/recaptcha/library/Captcha.php',
+    
+    //Classes
+    'FsInformatik\ReCaptcha\ReCaptcha'     => 'system/modules/recaptcha/classes/ReCaptcha.php',
+    
+    //Forms
+    'FsInformatik\ReCaptcha\FormCaptcha'   => 'system/modules/recaptcha/forms/FormCaptcha.php',
+    'FsInformatik\ReCaptcha\FormReCaptcha' => 'system/modules/recaptcha/forms/FormReCaptcha.php',
 ));
 
 
@@ -39,6 +44,6 @@ ClassLoader::addClasses(array
  */
 TemplateLoader::addFiles(array
 (
-	'rec_custom_default' => 'system/modules/recaptcha/templates',
-	'recaptcha'          => 'system/modules/recaptcha/templates',
+    'rec_custom_default' => 'system/modules/recaptcha/templates',
+    'recaptcha'          => 'system/modules/recaptcha/templates',
 ));

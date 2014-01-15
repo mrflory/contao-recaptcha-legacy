@@ -2,6 +2,11 @@
 reCaptcha Contao module CHANGELOG
 =================================
 
+Version 1.0.2 (2014-01-15)
+--------------------------
+- Changed file structure according to new Contao standards
+- Contao 3.2 compatibility
+
 Version 1.0.1 (2013-05-10)
 --------------------------
 - Updated library
