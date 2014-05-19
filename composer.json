@@ -1,7 +1,7 @@
 {
     "name": "mrflory/contao-recaptcha",
     "type": "contao-module",
-    "description": "Contao Open Source CMS extension reCaptcha: The extension replaces the default captchas with reCaptchas and adds a reCaptcha form field",
+    "description": "Contao Open Source CMS extension reCaptcha: The extension replaces the default captchas with reCaptchas and adds a reCaptcha form field.",
     "keywords": ["contao", "captcha", "recaptcha", "security question"],
     "license": "LGPL-3.0+",
     "authors": [
