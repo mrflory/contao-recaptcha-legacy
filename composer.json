@@ -1,0 +1,34 @@
+{
+    "name": "mrflory/contao-recaptcha",
+    "type": "contao-module",
+    "description": "Contao Open Source CMS extension reCaptcha: The extension replaces the default captchas with reCaptchas and adds a reCaptcha form field",
+    "keywords": ["contao", "captcha", "recaptcha", "security question"],
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Florian Stallmann",
+            "email": "mail@florian-stallmann.de",
+            "homepage": "http://florian-stallmann.de",
+            "role": "Developer"
+        }
+    ],
+    "support":{
+        "issues": "https://github.com/mrflory/contao-recaptcha/issues",
+        "source": "https://github.com/mrflory/contao-recaptcha"
+    },
+    "require": {
+        "php": ">=5.3",
+        "contao/core": ">=3.2,<4",
+        "contao-community-alliance/composer-installer": "*"
+    },
+    "replace": {
+        "contao-legacy/recaptcha": "*"
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "": "system/modules/recaptcha"
+            }
+        }
+    }
+}
