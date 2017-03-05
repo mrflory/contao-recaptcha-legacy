@@ -17,9 +17,8 @@
         "source": "https://github.com/mrflory/contao-recaptcha-legacy"
     },
     "require": {
-        "php": ">=5.3",
-        "contao/core": ">=3.2,<4",
-        "contao-community-alliance/composer-plugin": "~2.4 | ~3.0"
+        "contao/core": "~3.5",
+        "contao-community-alliance/composer-plugin": "~2.4"
     },
     "replace": {
         "contao-legacy/recaptcha": "*"
@@ -30,8 +29,5 @@
                 "": "system/modules/recaptcha"
             }
         }
-    },
-    "conflict": {
-        "mrflory/contao-recaptcha2": ">=1.2"
     }
 }
