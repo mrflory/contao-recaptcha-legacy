@@ -1,5 +1,5 @@
 {
-    "name": "mrflory/contao-recaptcha",
+    "name": "mrflory/contao-recaptcha-legacy",
     "type": "contao-module",
     "description": "Contao Open Source CMS extension reCaptcha: The extension replaces the default captchas with reCaptchas and adds a reCaptcha form field.",
     "keywords": ["contao", "captcha", "recaptcha", "security question"],
@@ -23,6 +23,7 @@
     "replace": {
         "contao-legacy/recaptcha": "*"
     },
+    "abandoned": "dieschittigs/contao-recaptcha",
     "extra": {
         "contao": {
             "sources": {
